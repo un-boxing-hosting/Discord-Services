@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      "discord-Services.js@1.0.0",
+      "C:\\Users\\conne\\OneDrive\\Desktop\bot\node_modules\\discord-Services.js"
+    ]
+  ],
+  "_from": "discord-Services.js@1.0.0",
+  "_id": "discord-Services.js@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-pfoLT4J8cfG61fC4+jLarekmHqCEE4p8lTb3dI3N7JMOjthZ++rM+RHGbSocsrnTBdn28LeC2ZqIvUew7LSjdQ==",
+  "_location": "/discord-Services.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "discord-Services.js@1.0.0",
+    "name": "discord-Services.js",
+    "escapedName": "discord-Services.js",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/boats.js/-/boats.js-2.5.0.tgz",
+  "_spec": "2.5.0",
+  "_where": "C:\\0Abot-back-up\\4-12-21",
+  "author": {
+    "name": "un boxing man",
+    "email": "unboxingman@hotmail.com",
+    "url": "https://play.unboxingman.com"
+  },
+  "bugs": {
+    "url": "https://github.com/DiscordBoats/boats.js/issues"
+  },
+  "dependencies": {
+    "wumpfetch": "^0.3.0"
+  },
+  "description": "The  discord Services API wrapper for Node.js",
+  "homepage": "https://discordservices.net",
+  "keywords": [
+    "DiscordServices",
+    "Discord",
+    "Services",
+    "Discord Bots",
+    "Discord Bot",
+    "Bot"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "un boxing man",
+      "email": "unboxingman@hotmail.com",
+      "url": "https://play.unboxingman.com"
+    }
+  ],
+  "name": "Discord-Services.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/un-boxing-hosting/Discord-Services.js.git"
+  },
+  "types": "index.d.ts",
+  "version": "2.5.0"
+}
