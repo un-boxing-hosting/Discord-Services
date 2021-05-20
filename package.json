@@ -1,0 +1,34 @@
+{
+  "author": "un boxing man <unboxingman@hotmail.com> (https://play.unboxingman.com)",
+  "bugs": {
+    "url": "https://github.com/un-boxing-hosting/Discord-Services.js/issues"
+  },
+  "dependencies": {
+    "wumpfetch": "^0.3.0"
+  },
+  "description": "The  discord Services API wrapper for Node.js",
+  "homepage": "https://discordservices.net",
+  "keywords": [
+    "DiscordServices",
+    "Discord",
+    "Services",
+    "Discord Bots",
+    "Discord Bot",
+    "Bot"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    "un boxing man <unboxingman@hotmail.com> (https://play.unboxingman.com)"
+  ],
+  "name": "discord-services",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/un-boxing-hosting/Discord-Services.js.git"
+  },
+  "types": "index.d.ts",
+  "version": "1.0.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
