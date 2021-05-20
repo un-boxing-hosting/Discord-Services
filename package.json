@@ -27,7 +27,7 @@
     "url": "git+https://github.com/un-boxing-hosting/Discord-Services.js.git"
   },
   "types": "index.d.ts",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
