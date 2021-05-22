@@ -1,4 +1,4 @@
-declare module 'Discord-Services.js' {
+declare module 'Discord-Services' {
     
 
    // interface categorys {

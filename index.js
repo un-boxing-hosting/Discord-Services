@@ -1,5 +1,5 @@
 /**
- * @module Discord-Services.js
+ * @module Discord-Services
  * @copyright un boxing man 2021
  * @license MIT
  */

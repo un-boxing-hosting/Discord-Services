@@ -1,7 +1,7 @@
 {
   "author": "un boxing man <unboxingman@hotmail.com> (https://play.unboxingman.com)",
   "bugs": {
-    "url": "https://github.com/un-boxing-hosting/Discord-Services.js/issues"
+    "url": "https://github.com/un-boxing-hosting/Discord-Services/issues"
   },
   "dependencies": {
     "wumpfetch": "^0.3.0"
@@ -24,10 +24,10 @@
   "name": "discord-services",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/un-boxing-hosting/Discord-Services.js.git"
+    "url": "git+https://github.com/un-boxing-hosting/Discord-Services.git"
   },
   "types": "index.d.ts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }

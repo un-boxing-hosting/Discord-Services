@@ -1,17 +1,17 @@
-[![NPM](https://nodei.co/npm/discord-services.js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/discord-services.js)
+[![NPM](https://nodei.co/npm/discord-services.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/discord-services)
 
-# discord-services.js
+# discord-services
  https://discordservices.net API wrapper for Node.js
 
 ## Installation
-Simply run `npm i discord-services.js` (or `yarn add discord-services.js`)
+Simply run `npm i discord-services` (or `yarn add discord-services`)
 
 ## Usage
 (Sync)
 
 Posting Bot Server Count:
 ```js
-const DS = require('discord-services.js');
+const DS = require('discord-services');
 const ds = new DS('API TOKEN');
 
 ds.postStats('SERVER_COUNT', 'BOT_ID').then(() => {
@@ -23,7 +23,7 @@ ds.postStats('SERVER_COUNT', 'BOT_ID').then(() => {
 
 Posting Bot News:
 ```js
-const DS = require('discord-services.js');
+const DS = require('discord-services');
 const ds = new DS('API TOKEN');
 
 ds.postNews('BOT_ID', 'NEWS_TITLE', 'NEWS_CONTENT', false).then(() => {
@@ -35,7 +35,7 @@ ds.postNews('BOT_ID', 'NEWS_TITLE', 'NEWS_CONTENT', false).then(() => {
 
 Posting Bot commads:
 ```js
-const DS = require('discord-services.js');
+const DS = require('discord-services');
 const ds = new DS('API TOKEN');
 
 ds.postCommands('BOT_ID', 'COMMAND_NAME', 'DESCRIPTION', 'COMMAND_CATEGORY').then(() => {
@@ -49,7 +49,7 @@ ds.postCommands('BOT_ID', 'COMMAND_NAME', 'DESCRIPTION', 'COMMAND_CATEGORY').the
 
 Posting Bot Server Count
 ```js
-const DS = require('discord-services.js');
+const DS = require('discord-services');
 const ds = new DS('API TOKEN');
 
 await ds.postStats('SERVER_COUNT', 'BOT_ID')
@@ -57,7 +57,7 @@ await ds.postStats('SERVER_COUNT', 'BOT_ID')
 
 Posting Bot News:
 ```js
-const DS = require('discord-services.js');
+const DS = require('discord-services');
 const ds = new DS('API TOKEN');
 
 await ds.postNews('BOT_ID', 'NEWS_TITLE', 'NEWS_CONTENT', false)
@@ -65,7 +65,7 @@ await ds.postNews('BOT_ID', 'NEWS_TITLE', 'NEWS_CONTENT', false)
 
 Posting Bot commads:
 ```js
-const DS = require('discord-services.js');
+const DS = require('discord-services');
 const ds = new DS('API TOKEN');
 
 await ds.postCommands('BOT_ID', 'COMMAND_NAME', 'DESCRIPTION', 'COMMAND_CATEGORY')
