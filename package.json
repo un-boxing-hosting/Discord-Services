@@ -27,9 +27,7 @@
     "url": "git://github.com/un-boxing-hosting/Discord-Services.git"
   },
   "types": "index.d.ts",
-  "version": "1.0.6",
-  "publishConfig": {
-  "registry":"https://npm.pkg.github.com/un-boxing-hosting/Discord-Services"
-}
+  "version": "1.0.6"
+
 
 }
