@@ -24,9 +24,12 @@
   "name": "discord-services",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/un-boxing-hosting/Discord-Services.git"
+    "url": "git://github.com/un-boxing-hosting/Discord-Services.git"
   },
   "types": "index.d.ts",
-  "version": "1.0.5"
+  "version": "1.0.6",
+  "publishConfig": {
+  "registry":"https://npm.pkg.github.com/un-boxing-hosting/Discord-Services"
+}
 
 }
