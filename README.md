@@ -22,24 +22,27 @@ ds.postStats('SERVER_COUNT', 'BOT_ID').then(() => {
 ```
 
 Posting Bot News:
+**note: if `true` then the news is for a bot issue or maintenance.**
 ```js
 const DS = require('discord-services');
 const ds = new DS('API TOKEN');
 
 ds.postNews('BOT_ID', 'NEWS_TITLE', 'NEWS_CONTENT', false).then(() => {
-    console.log('Successfully updated server count.')
+    console.log('Successfully posted news.')
 }).catch((err) => {
     console.error(err)
 });
 ```
 
 Posting Bot commads:
+ **May not work blame the API.**
+
 ```js
 const DS = require('discord-services');
 const ds = new DS('API TOKEN');
 
 ds.postCommands('BOT_ID', 'COMMAND_NAME', 'DESCRIPTION', 'COMMAND_CATEGORY').then(() => {
-    console.log('Successfully updated server count.')
+    console.log('Successfully posted command.')
 }).catch((err) => {
     console.error(err)
 });
