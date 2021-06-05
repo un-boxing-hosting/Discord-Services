@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: 12
+          node-version: 14
           registry-url: https://registry.npmjs.org/discord-services
       - run: npm ci
       - run: npm publish
@@ -40,8 +40,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: 12
-          registry-url: https://npm.pkg.github.com/un-boxing-hosting/Discord-Services
+          node-version: 14
+          registry-url: https://npm.pkg.github.com/un-boxing-hosting
       - run: npm ci
       - run: npm publish
         env:
